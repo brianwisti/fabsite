@@ -4,6 +4,7 @@ __pycache__
 .coverage
 .python-version
 htmlcov
+params.json
 pyrightconfig.json
 *.sw?
 .DS_Store
