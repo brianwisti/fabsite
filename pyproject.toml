@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fabsite"
+version = "0.1.0"
+description = "A static site generator building on makesite.py"
+authors = ["Brian Wisti <brianwisti@pobox.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+commonmark = "^0.9.1"
+fabric = "^2.6.0"
+pytest = "^7.0.1"
+pytest-cov = "^3.0.0"
+rich = "^12.0.0"
+
+[tool.poetry.dev-dependencies]
+bumpver = "^2022.1116"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
